@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "spsettingsicons",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sparrowcode/SPSettingsIcons",
+      "state" : {
+        "revision" : "1a2bd5439aabba3474408fbca86eaad344c3fce9",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
