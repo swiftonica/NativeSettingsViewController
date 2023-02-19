@@ -3,6 +3,12 @@ import UIKit
 import SPSettingsIcons
 
 public struct NativeSettingsRow: Equatable {
+    public init(iconName: String, title: String, color: UIColor) {
+        self.iconName = iconName
+        self.title = title
+        self.color = color
+    }
+    
     public let iconName: String
     public let title : String
     public let color: UIColor
@@ -33,6 +39,12 @@ public struct NativeSettingsRow: Equatable {
 }
 
 public struct NativeSettingsSection {
+    public init(headerTitle: String, footerTitle: String, rows: [NativeSettingsRow]) {
+        self.headerTitle = headerTitle
+        self.footerTitle = footerTitle
+        self.rows = rows
+    }
+    
     public let headerTitle: String
     public let footerTitle: String
     public let rows: [NativeSettingsRow]
