@@ -44,7 +44,7 @@ public protocol NativeSettingsViewControllerDataSource: AnyObject {
     ) -> [NativeSettingsSection]
     
     func nativeSettingsViewController(
-        _ viewCOntroller: NativeSettingsViewController,
+        _ viewController: NativeSettingsViewController,
         shouldShowIndicator for: IndexPath
     ) -> Bool
     
