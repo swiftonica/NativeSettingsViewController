@@ -1,3 +1,3 @@
 # NativeSettingsViewController
 
-A description of this package.
+Native-like settings screen
